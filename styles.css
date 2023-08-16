@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #49b6b0;
+    color: rgb(102, 66, 25);
+    font-family: sans-serif ;
+}
+
+#hero {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.5GpnxtMzHlvzjpEtfp85QQHaEv%26pid%3DApi&f=1&ipt=0dea4416eb1db95a7c24a84735eba7ed17a18b2fed4d0471cadd812b823b7af6&ipo=images");
+    background-size: cover;
+    width: 75%;
+    height: 760px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px black;
+    padding-bottom: 0;
+    border-right: 6px solid #ddedee;
+    border-left: 6px solid #ddedee;
+
+
+}
+
+#hero h2 {
+    font-size: 2.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hero h1 {
+    font-size: 4em;
+}
+
+#activities-section {
+    background-color: #ddedee;
+    text-align: center;
+    padding: 3em;
+    margin: 0;
+}
+
+#activities-section h3 {
+    font-size: 2.2em;
+}
+
+.activity-container img {
+    width: 15vw;
+    height: 15vw;
+    border: 6px solid #3ac2c7;
+    border-radius: 50%;
+    margin: 3em 0 1em;
+}
+
+.activity-container p {
+    margin-top: 0;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.image-set {
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+
+#guide-section {
+    width: 50%;
+    margin: 3em auto;
+    background-color: #ddedee;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#guide-section img {
+    width: 50%;
+}
+
+.guide-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+}
+
+.guide-text-container p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+
+}
